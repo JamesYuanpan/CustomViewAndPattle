@@ -94,7 +94,15 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
             case R.id.three:
                 startActivity(new Intent(MainActivity.this,GlideTestActivity.class));
                 break;
-
+            case R.id.mytest:
+                startActivity(new Intent(MainActivity.this, MyTestActivity.class));
+                break;
+            case R.id.custom:
+                startActivity(new Intent(MainActivity.this, CustomViewActivity.class));
+                break;
+            case R.id.bigview:
+                startActivity(new Intent(MainActivity.this, BigViewActivity.class));
+                break;
         }
         return true;
     }

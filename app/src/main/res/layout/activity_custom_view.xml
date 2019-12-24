@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
     tools:context=".CustomViewActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <com.dingmouren.paletteimageview.CustomView
+        android:id="@+id/progress"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:UnreachedColor="@color/accent_black"
+        app:ReachedColor="@color/accent_blue"
+        app:InnerTextColor="@color/accent_red"
+        app:InnerTextSize="18sp" />
+</RelativeLayout>

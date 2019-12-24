@@ -8,4 +8,10 @@
         android:title="SampleTwo"/>
     <item android:id="@+id/three"
         android:title="GlideTest"/>
+    <item android:id="@+id/mytest"
+        android:title="MyTest" />
+    <item android:id="@+id/custom"
+        android:title="Custom" />
+    <item android:id="@+id/bigview"
+        android:title="Bigview" />
 </menu>

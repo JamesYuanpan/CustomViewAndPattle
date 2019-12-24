@@ -84,8 +84,9 @@ public class PaletteImageView extends View {
         setPadding(mPadding, mPadding, mPadding, mPadding);
 
         mPaintShadow = new Paint(Paint.ANTI_ALIAS_FLAG);
-        mPaintShadow.setDither(true);
-        setLayerType(LAYER_TYPE_SOFTWARE, null);
+        mPaintShadow.setDither(true);//设置防抖动
+        mPaintShadow.setAntiAlias(true);//设置防锯齿
+        setLayerType(LAYER_TYPE_SOFTWARE, null);//设置软件加速
         setBackgroundColor(getResources().getColor(android.R.color.transparent));
         mPaint  = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setDither(true);
