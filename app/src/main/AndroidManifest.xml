@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BigViewActivity"></activity>
+        <activity android:name=".OtherActivity"></activity>
+        <activity android:name=".BigViewActivity" />
         <activity android:name=".CustomViewActivity" />
         <activity android:name=".MyTestActivity" />
         <activity android:name=".MainActivity">

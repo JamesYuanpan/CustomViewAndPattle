@@ -1,10 +1,9 @@
 package com.dingmouren.paletteimageview;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.TextView;
 
 public class MyTextView extends View {
 

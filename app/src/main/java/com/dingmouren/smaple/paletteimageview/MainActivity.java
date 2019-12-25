@@ -1,11 +1,10 @@
 package com.dingmouren.smaple.paletteimageview;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
@@ -102,6 +101,9 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
                 break;
             case R.id.bigview:
                 startActivity(new Intent(MainActivity.this, BigViewActivity.class));
+                break;
+            case R.id.other:
+                startActivity(new Intent(MainActivity.this, OtherActivity.class));
                 break;
         }
         return true;

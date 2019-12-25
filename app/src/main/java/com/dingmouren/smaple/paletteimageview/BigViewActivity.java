@@ -1,14 +1,11 @@
 package com.dingmouren.smaple.paletteimageview;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.dingmouren.paletteimageview.BigView;
 
 import java.io.IOException;
-import java.io.InputStream;
 
 public class BigViewActivity extends AppCompatActivity {
 

@@ -14,4 +14,6 @@
         android:title="Custom" />
     <item android:id="@+id/bigview"
         android:title="Bigview" />
+    <item android:id="@+id/other"
+        android:title="其他" />
 </menu>

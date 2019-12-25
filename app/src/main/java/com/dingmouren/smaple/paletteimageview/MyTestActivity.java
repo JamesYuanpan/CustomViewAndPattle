@@ -2,9 +2,10 @@ package com.dingmouren.smaple.paletteimageview;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.palette.graphics.Palette;
+
 import android.os.Bundle;
-import android.support.v7.graphics.Palette;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
