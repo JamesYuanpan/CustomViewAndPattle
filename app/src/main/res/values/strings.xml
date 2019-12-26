@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PaletteImageView</string>
+    <string name="open">1</string>
+    <string name="close">0</string>
 </resources>

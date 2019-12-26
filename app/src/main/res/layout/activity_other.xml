@@ -13,4 +13,12 @@
         android:text="ViewPager2"
         android:textSize="12sp"/>
 
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:id="@+id/drawer"
+        android:text="DrawerLayout"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"/>
+
 </LinearLayout>
