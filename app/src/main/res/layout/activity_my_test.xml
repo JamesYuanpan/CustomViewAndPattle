@@ -42,4 +42,29 @@
                 android:id="@+id/body"/>
         </LinearLayout>
     </LinearLayout>
+
+    <!--自定义按顺序垂直排列的ViewGroup-->
+    <!--<com.dingmouren.paletteimageview.MyViewGroup-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/accent_black">-->
+        <!--<TextView-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Hello !!!"-->
+            <!--android:textColor="@color/accent_yellow"-->
+            <!--android:textSize="16sp"/>-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/accent_purple"-->
+            <!--android:text="World!!!"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:textColor="@color/accent_green"-->
+            <!--android:text="点一下"/>-->
+    <!--</com.dingmouren.paletteimageview.MyViewGroup>-->
 </LinearLayout>
